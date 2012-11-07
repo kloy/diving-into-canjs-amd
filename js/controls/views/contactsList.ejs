@@ -1,0 +1,9 @@
+<ul class="unstyled clearfix">
+  <% list(contacts.filter(can.route.attr('category')), function(contact){ %>
+    <li class="contact span8" <%= (el)-> el.data('contact', contact) %>>
+      <div class="">
+        <%== can.view.render('js/controls/views/contactView', {contact: contact, categories: categories}) %>
+      </div>
+    </li>
+  <% }) %>
+</ul>

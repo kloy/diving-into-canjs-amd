@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CanJS Contacts Manager</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/contacts.css">
+
+    <script data-main="js/main" src="components/requirejs/require.js">
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h1>Contacts Manager</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span3">
+          <div class="well">
+            <a class="btn btn-large btn-primary" href="javascript://" id="new-contact">
+              <i class="icon-plus icon-white"></i> New Contact
+            </a>
+            <nav id="filter"></nav>
+          </div>
+        </div>
+        <div class="span9">
+          <div id="create"></div>
+          <div id="contacts"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

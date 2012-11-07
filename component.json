@@ -1,0 +1,9 @@
+{
+  "name": "contacts_manager",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "1.7.2",
+    "requirejs": "*",
+    "requirejs-text": "*"
+  }
+}
